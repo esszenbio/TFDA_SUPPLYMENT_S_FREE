@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ESSZENBIO 臻萃研 | 微生态科学 肠-脑-皮肤轴保健系统</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;700;900&display=swap');
+        body { font-family: 'Noto Sans SC', sans-serif; background-color: #0b1120; color: #f8fafc; padding-bottom: 80px; }
+        .glass-card { background: rgba(30, 41, 59, 0.6); backdrop-filter: blur(16px); border: 1px solid rgba(255,255,255,0.08); margin-bottom: 2rem; box-shadow: 0 10px 30px -10px rgba(0,0,0,0.5); }
+        .text-gold { color: #d4af37; }
+        .bg-gold { background-color: #d4af37; }
+        .border-gold { border-color: #d4af37; }
+        .gradient-text-day { background: linear-gradient(to right, #fbbf24, #f59e0b); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+        .gradient-text-night { background: linear-gradient(to right, #a78bfa, #818cf8); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+        
+        @keyframes slideIn { from { opacity: 0; transform: translateY(20px); } to { opacity: 1; transform: translateY(0); } }
+        .animate-slide-in { animation: slideIn 0.6s ease-out forwards; }
+        
+        .tag { display: inline-block; padding: 4px 10px; border-radius: 6px; font-size: 0.75rem; font-weight: 700; letter-spacing: 0.05em; margin-right: 6px; margin-bottom: 6px; }
+        .tag-eu { background: rgba(56, 189, 248, 0.15); color: #38bdf8; border: 1px solid rgba(56, 189, 248, 0.3); }
+        .tag-core { background: rgba(251, 191, 36, 0.15); color: #fbbf24; border: 1px solid rgba(251, 191, 36, 0.3); }
+        
+        /* 隐藏滚动条但保持可滚动 */
+        .scrollbar-hide::-webkit-scrollbar { display: none; }
+        .scrollbar-hide { -ms-overflow-style: none; scrollbar-width: none; }
+    </style>
+</head>
+<body class="p-4 md:p-8 selection:bg-gold selection:text-black">
+    <div class="max-w-5xl mx-auto">
+        
+        <!-- 顶部主视觉 -->
+        <div class="glass-card rounded-3xl p-6 md:p-12 animate-slide-in relative overflow-hidden shadow-[0_15px_40px_-10px_rgba(0,0,0,0.7)]">
+            <div class="absolute top-0 right-0 w-72 h-72 bg-blue-500 opacity-10 rounded-full blur-[100px] pointer-events-none"></div>
+            <div class="absolute bottom-0 left-0 w-64 h-64 bg-purple-500 opacity-10 rounded-full blur-[80px] pointer-events-none"></div>
+            
+            <div class="text-center mb-10 relative z-10">
+                <p class="text-cyan-400 font-bold tracking-[0.2em] text-xs md:text-sm mb-3 drop-shadow-md border border-cyan-500/30 bg-cyan-900/20 inline-block px-4 py-1.5 rounded-full">GUT-BRAIN-SKIN AXIS SYSTEM</p>
+                <h1 class="text-3xl md:text-5xl font-black mb-5 drop-shadow-lg tracking-tight mt-4">👑 ESSZENBIO 臻萃研</h1>
+                <h2 class="text-xl md:text-3xl font-black drop-shadow-md text-white">微生态科学・<span class="text-gold">肠-脑-皮肤轴</span> 双效协同保健系统</h2>
+                <p class="mt-6 text-slate-300 text-sm md:text-base max-w-2xl mx-auto font-medium leading-relaxed">
+                    真正的健康与美丽，源自于体内微生态的平衡。我们贯彻最新的“肠-脑-皮肤轴 (Gut-Brain-Skin Axis)”医学理念，严选 <strong class="text-cyan-300">欧洲顶配 6 大益生菌株</strong>，结合顶尖植萃与神经传导营养素，打造顺应日夜节律的双效保养。
+                </p>
+            </div>
+            
+            <div class="grid md:grid-cols-3 gap-4 md:gap-6 mb-4 relative z-10">
+                <div class="bg-slate-800/80 rounded-2xl p-5 border border-slate-600 shadow-xl hover:border-cyan-400/50 transition-colors">
+                    <h3 class="text-base md:text-lg font-black mb-3 text-white flex items-center gap-2">🦠 肠道微生态优化</h3>
+                    <p class="text-xs md:text-sm text-slate-300 leading-relaxed font-medium">严选欧洲高配复合 6 大益生菌，搭配益生元（菊苣纤维、洋车前子），建立健康肠道菌群，不仅帮助排便顺畅，更是调整体质与营养吸收的根本。</p>
+                </div>
+                <div class="bg-slate-800/80 rounded-2xl p-5 border border-slate-600 shadow-xl hover:border-purple-400/50 transition-colors">
+                    <h3 class="text-base md:text-lg font-black mb-3 text-white flex items-center gap-2">🧠 神经传导与舒眠</h3>
+                    <p class="text-xs md:text-sm text-slate-300 leading-relaxed font-medium">肠道被称为“第二大脑”。配方结合 GABA、色氨酸与葡萄糖酸镁，透过神经传导轴线，帮助舒缓紧绷、帮助入睡，启动夜间黄金睡眠期。</p>
+                </div>
+                <div class="bg-slate-800/80 rounded-2xl p-5 border border-slate-600 shadow-xl hover:border-rose-400/50 transition-colors">
+                    <h3 class="text-base md:text-lg font-black mb-3 text-white flex items-center gap-2">✨ 系统性青春养颜</h3>
+                    <p class="text-xs md:text-sm text-slate-300 leading-relaxed font-medium">体内环保与深层睡眠是最佳的护肤品。加上尖端低温水解萃取的蜂王浆冻干粉、人参与蓝靛果，由内而外展现青春美丽的光泽。</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- 日间配方区块 -->
+        <div class="glass-card rounded-3xl p-6 md:p-10 animate-slide-in relative overflow-hidden border border-yellow-500/30" style="animation-delay: 0.1s;">
+            <div class="absolute -right-20 -top-20 w-80 h-80 bg-yellow-500 opacity-10 rounded-full blur-[80px] pointer-events-none"></div>
+            
+            <div class="flex flex-col md:flex-row justify-between items-start mb-8 border-b border-slate-600 pb-6 relative z-10">
+                <div>
+                    <span class="bg-yellow-500/20 text-yellow-400 border border-yellow-500/40 px-3 py-1 rounded-full text-xs font-black tracking-widest uppercase mb-3 inline-block shadow-sm">☀️ Daytime Formula</span>
+                    <h2 class="text-3xl md:text-4xl font-black text-white drop-shadow-md">【晞 AURORA】元气顺畅益生菌粉</h2>
+                    <p class="text-sm md:text-base text-slate-300 mt-3 font-bold tracking-wide">顺畅代谢・微分子滋补强身・全方位机能启动</p>
+                </div>
+            </div>
+
+            <div class="grid md:grid-cols-2 gap-6 relative z-10">
+                <div class="space-y-5">
+                    <div class="bg-slate-900/60 rounded-2xl p-5 border border-slate-700 hover:border-yellow-500/40 transition-colors">
+                        <h4 class="font-black text-yellow-400 mb-2 flex items-center gap-2 text-base md:text-lg">🦠 欧洲顶配复合菌群 (6大活菌)</h4>
+                        <p class="text-sm text-slate-300 leading-relaxed mb-3">严选欧洲生产高配品项：<strong>凝结芽孢杆菌、干酪乳杆菌(C菌)、嗜酸乳杆菌(A菌)、鼠李糖乳杆菌、植物乳杆菌、长双歧杆菌(龙根菌)</strong>。能顺利通过胃酸，于消化道不同部位定植，协同打造健康的肠道微生态，调整体质。</p>
+                        <span class="tag tag-eu">🛡️ 欧洲专利菌株</span>
+                        <span class="tag tag-eu">🧬 耐酸碱定植技术</span>
+                    </div>
+
+                    <div class="bg-slate-900/60 rounded-2xl p-5 border border-slate-700 hover:border-yellow-500/40 transition-colors">
+                        <h4 class="font-black text-yellow-400 mb-2 flex items-center gap-2 text-base md:text-lg">🌿 肠道大扫除与益生元</h4>
+                        <p class="text-sm text-slate-300 leading-relaxed mb-3">结合<strong>洋车前子壳粉</strong>(天然保水纤维)、<strong>抗性糊精</strong>(水溶性纤维)与<strong>菊苣纤维</strong>(优质益生元)。三效合一，增加饱腹感、软化粪便、促进新陈代谢，为益生菌提供充足养分，使排便顺畅。</p>
+                    </div>
+                </div>
+
+                <div class="space-y-5">
+                    <div class="bg-slate-900/60 rounded-2xl p-5 border border-slate-700 hover:border-yellow-500/40 transition-colors">
+                        <h4 class="font-black text-yellow-400 mb-2 flex items-center gap-2 text-base md:text-lg">⚡ 5年红参酶解转与沙棘全果萃取</h4>
+                        <p class="text-sm text-slate-300 leading-relaxed mb-3">运用顶尖的<strong>“低温酶解技术”</strong>，将珍贵的<strong>5年红参</strong>精准转化为高吸收率的微分子人参皂苷。这打破了传统吃参“易上火、虚不受补”的观念，将属性转化为<strong>温和不燥热</strong>，提供深层元气补给。</p>
+                        <p class="text-sm text-slate-300 leading-relaxed mb-3">搭配<strong>沙棘果</strong>，我们坚持采用<strong>“原形全果萃取（连同果皮完整保留）”</strong>，淬炼出极为丰富的类黄酮、维生素C与 Omega-7。萃取后立即进入<strong>“真空冷冻干燥”</strong>并辅以<strong>“低温研磨制粉”</strong>，彻底避免高温降解。</p>
+                        <span class="tag tag-core">❄️ 酶解温和去燥</span>
+                        <span class="tag tag-core">🌟 冻干研磨零降解</span>
+                    </div>
+
+                    <div class="bg-slate-900/60 rounded-2xl p-5 border border-slate-700 hover:border-yellow-500/40 transition-colors">
+                        <h4 class="font-black text-yellow-400 mb-2 flex items-center gap-2 text-base md:text-lg">💧 消化支援与基础补给</h4>
+                        <p class="text-sm text-slate-300 leading-relaxed">利用<strong>综合酵素 (酶)</strong>将大分子食物分解为小分子，减轻饭后负担；搭配<strong>综合维生素矿物质</strong>与乳酸粉，作为体内生化代谢反应的催化剂，维持最佳生理机能。</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="mt-6 bg-slate-800/80 p-4 rounded-xl border-l-4 border-yellow-500 text-sm text-slate-200 shadow-inner">
+                <strong class="text-yellow-400">💡 专家总结：</strong>针对经常外食、压力大、排便不顺的现代人。透过“上游消化、中游低温微分子滋补、下游顺畅”的完整路径，日间一包即刻启动全天候活力。
+            </div>
+        </div>
+
+        <!-- 夜间配方区块 -->
+        <div class="glass-card rounded-3xl p-6 md:p-10 animate-slide-in relative overflow-hidden border border-purple-500/30" style="animation-delay: 0.2s;">
+            <div class="absolute -left-20 -top-20 w-80 h-80 bg-purple-500 opacity-10 rounded-full blur-[80px] pointer-events-none"></div>
+            
+            <div class="flex flex-col md:flex-row justify-between items-start mb-8 border-b border-slate-600 pb-6 relative z-10">
+                <div>
+                    <span class="bg-purple-500/20 text-purple-400 border border-purple-500/40 px-3 py-1 rounded-full text-xs font-black tracking-widest uppercase mb-3 inline-block shadow-sm">🌙 Nighttime Formula</span>
+                    <h2 class="text-3xl md:text-4xl font-black text-white drop-shadow-md">【沁 VESPERA】晚安养护益生菌粉</h2>
+                    <p class="text-sm md:text-base text-slate-300 mt-3 font-bold tracking-wide">深层调理・舒缓紧绷・极致青春养颜</p>
+                </div>
+            </div>
+
+            <div class="grid md:grid-cols-2 gap-6 relative z-10">
+                <div class="space-y-5">
+                    <div class="bg-slate-900/60 rounded-2xl p-5 border border-slate-700 hover:border-purple-400/40 transition-colors">
+                        <h4 class="font-black text-purple-400 mb-2 flex items-center gap-2 text-base md:text-lg">🧠 脑-肠轴线：深层神经放松</h4>
+                        <p class="text-sm text-slate-300 leading-relaxed mb-3">利用天然神经传导物质 <strong>氨基丁酸 (GABA)</strong> 帮助舒缓情绪；搭配 <strong>色氨酸</strong> (快乐荷尔蒙前体) 与 <strong>葡萄糖酸镁</strong> (有助于肌肉及神经的正常功能)，帮助入睡，快速进入夜间黄金保养期。</p>
+                        <span class="tag tag-core">💤 GABA 舒缓因子</span>
+                        <span class="tag tag-core">✨ 色氨酸 & 镁</span>
+                    </div>
+
+                    <div class="bg-slate-900/60 rounded-2xl p-5 border border-slate-700 hover:border-purple-400/40 transition-colors">
+                        <h4 class="font-black text-purple-400 mb-2 flex items-center gap-2 text-base md:text-lg">🦠 夜间修护微生态 (6大活菌)</h4>
+                        <p class="text-sm text-slate-300 leading-relaxed mb-3">同样采用欧洲进口顶配 6 大益生菌群。搭配膳食纤维与菊苣纤维益生元，在夜间平静期进行体内环保大扫除，由根本调节生理机能。</p>
+                        <span class="tag tag-eu">🛡️ 欧洲专利 6 大菌株</span>
+                    </div>
+                </div>
+
+                <div class="space-y-5">
+                    <div class="bg-slate-900/60 rounded-2xl p-5 border border-slate-700 hover:border-purple-400/40 transition-colors">
+                        <h4 class="font-black text-purple-400 mb-2 flex items-center gap-2 text-base md:text-lg">👑 顶配蜂王浆全低温酶解</h4>
+                        <p class="text-sm text-slate-300 leading-relaxed mb-3">舍弃一般高温加工法，藉由专利<strong>“低温酶解技术”精准切断蜂王浆蛋白的糖基</strong>，将大分子有效转化。萃取后立即进入<strong>“真空冷冻干燥”</strong>并纯化出极高浓度的<strong>王浆酸 (10-HDA)</strong>，确保珍贵活性不因高温降解；配合德国水解胶原蛋白，由内而外散发青春光泽。</p>
+                        <span class="tag tag-core">🐝 切断糖基酶解技术</span>
+                        <span class="tag tag-core">❄️ 冻干纯化 10-HDA</span>
+                    </div>
+
+                    <div class="bg-slate-900/60 rounded-2xl p-5 border border-slate-700 hover:border-purple-400/40 transition-colors">
+                        <h4 class="font-black text-purple-400 mb-2 flex items-center gap-2 text-base md:text-lg">🫐 蓝靛果全果萃取：顶级 C3G 花青素</h4>
+                        <p class="text-sm text-slate-300 leading-relaxed">严选超级果实<strong>蓝靛果</strong>，坚持采用<strong>“原形全果萃取（连同果皮完整保留）”</strong>。不仅温和萃取，后续更采用<strong>“低温研磨制粉”</strong>。全制程在低温可控环境下进行，完美避免高温破坏，完整封存其极高抗氧化力 (ORAC值) 的<strong>顶级 C3G 花青素</strong>与维生素C，促进新陈代谢、展现青春美丽。</p>
+                        <span class="tag tag-core">❄️ 全果原形萃取</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mt-6 bg-slate-800/80 p-4 rounded-xl border-l-4 border-purple-500 text-sm text-slate-200 shadow-inner">
+                <strong class="text-purple-400">💡 专家总结：</strong>完美的“睡得好，自然美”保养逻辑。藉由舒缓紧绷帮助入睡，再透过高科技酶解的微分子蜂王浆与胶原蛋白，于夜间休息的黄金期进行全身性深度保养。
+            </div>
+        </div>
+
+        <!-- 竞品比较表 -->
+        <div class="glass-card rounded-3xl p-6 md:p-10 animate-slide-in relative overflow-hidden border border-gold/40 shadow-[0_10px_30px_rgba(212,175,55,0.15)]" style="animation-delay: 0.25s;">
+            <div class="absolute -left-20 -bottom-20 w-64 h-64 bg-yellow-500 opacity-5 rounded-full blur-[60px] pointer-events-none"></div>
+            
+            <div class="text-center mb-8 relative z-10">
+                <span class="bg-gold/20 text-gold text-xs md:text-sm font-black px-4 py-1.5 rounded-full uppercase tracking-widest border border-gold/40 shadow-sm">Market Intelligence</span>
+                <h2 class="text-2xl md:text-4xl font-black mt-5 mb-4 text-white drop-shadow-md">📊 顶级保健市场对标 (Value Engineering)</h2>
+                <p class="text-slate-200 text-sm md:text-base leading-relaxed max-w-3xl mx-auto font-medium">
+                    要达到完整的“肠-脑-皮肤轴”日夜协同保养，在传统顶级专柜往往需要购买多瓶不同单品。ESSZENBIO 透过高阶低温酶解与冻干纯化技术，将欧洲顶配活菌与珍稀植萃完美融合，提供超越国际大厂的系统效能，却拥有更合理的性价比。
+                </p>
+            </div>
+
+            <div class="overflow-x-auto pb-4 scrollbar-hide relative z-10 bg-[#0f172a]/80 rounded-2xl border border-slate-700/60 p-2 md:p-4">
+                <table class="w-full text-left text-sm md:text-base whitespace-nowrap min-w-[800px]">
+                    <thead>
+                        <tr class="border-b-2 border-slate-600">
+                            <th class="py-4 px-4 text-slate-300 font-bold w-1/4 text-lg">核心机能维度</th>
+                            <th class="py-4 px-4 text-gold font-black bg-gold/10 rounded-t-xl text-center text-lg border-x border-t border-gold/30 shadow-inner">
+                                👑 ESSZENBIO<br><span class="text-xs font-bold text-yellow-400 mt-1 block">微生态日夜套装</span>
+                            </th>
+                            <th class="py-4 px-4 text-slate-400 font-bold text-center">
+                                日系顶配 三x利<br><span class="text-xs font-normal text-slate-500 mt-1 block">(需混搭3项单品)</span>
+                            </th>
+                            <th class="py-4 px-4 text-slate-400 font-bold text-center">
+                                韩系专柜 正x庄<br><span class="text-xs font-normal text-slate-500 mt-1 block">(需混搭3项单品)</span>
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody class="divide-y divide-slate-700/60">
+                        <tr class="hover:bg-slate-800/40 transition-colors">
+                            <td class="py-5 px-4 text-slate-100 font-medium">肠道微生态与排便顺畅 <span class="bg-emerald-900/60 text-emerald-300 border border-emerald-500/40 px-2 py-0.5 rounded text-[11px] md:text-xs ml-2 font-bold tracking-wider">欧洲 6 大活菌</span></td>
+                            <td class="py-5 px-4 text-gold tracking-[0.25em] bg-gold/10 text-center font-black text-xl border-x border-gold/30">★★★★★</td>
+                            <td class="py-5 px-4 text-slate-300 tracking-[0.25em] text-center text-lg">★★★★<span class="text-slate-600">★</span></td>
+                            <td class="py-5 px-4 text-slate-300 tracking-[0.25em] text-center text-lg">★★<span class="text-slate-600">★★★</span></td>
+                        </tr>
+                        <tr class="hover:bg-slate-800/40 transition-colors">
+                            <td class="py-5 px-4 text-slate-100 font-medium">夜间深层舒缓与帮助入睡 <span class="bg-purple-900/60 text-purple-300 border border-purple-500/40 px-2 py-0.5 rounded text-[11px] md:text-xs ml-2 font-bold tracking-wider">GABA/色氨酸</span></td>
+                            <td class="py-5 px-4 text-gold tracking-[0.25em] bg-gold/10 text-center font-black text-xl border-x border-gold/30">★★★★★</td>
+                            <td class="py-5 px-4 text-slate-300 tracking-[0.25em] text-center text-lg">★★★★★</td>
+                            <td class="py-5 px-4 text-slate-300 tracking-[0.25em] text-center text-lg">★<span class="text-slate-600">★★★★</span></td>
+                        </tr>
+                        <tr class="hover:bg-slate-800/40 transition-colors">
+                            <td class="py-5 px-4 text-slate-100 font-medium">日间高强度滋补强身 <span class="bg-yellow-900/60 text-yellow-300 border border-yellow-500/40 px-2 py-0.5 rounded text-[11px] md:text-xs ml-2 font-bold tracking-wider">酶解红参/沙棘</span></td>
+                            <td class="py-5 px-4 text-gold tracking-[0.25em] bg-gold/10 text-center font-black text-xl border-x border-gold/30">★★★★<span class="text-gold/50">★</span></td>
+                            <td class="py-5 px-4 text-slate-300 tracking-[0.25em] text-center text-lg">★★★<span class="text-slate-600">★★</span></td>
+                            <td class="py-5 px-4 text-slate-300 tracking-[0.25em] text-center text-lg">★★★★★</td>
+                        </tr>
+                        <tr class="hover:bg-slate-800/40 transition-colors">
+                            <td class="py-5 px-4 text-slate-100 font-medium">日夜生理节律一体化设计</td>
+                            <td class="py-5 px-4 text-gold tracking-[0.25em] bg-gold/10 text-center font-black text-xl border-x border-gold/30 rounded-b-xl border-b">★★★★★</td>
+                            <td class="py-5 px-4 text-slate-300 tracking-[0.25em] text-center text-lg">★★★<span class="text-slate-600">★★</span></td>
+                            <td class="py-5 px-4 text-slate-300 tracking-[0.25em] text-center text-lg">★★★<span class="text-slate-600">★★</span></td>
+                        </tr>
+                        <tr class="hover:bg-transparent transition-colors border-t-2 border-slate-600">
+                            <td class="py-6 px-4 text-slate-100 font-black text-lg">💎 达成全效机能之投资</td>
+                            <td class="py-6 px-4 bg-gradient-to-b from-gold/10 to-gold/20 text-center border-x border-b border-gold/40 rounded-b-xl shadow-inner">
+                                <span class="text-gold font-black text-xl drop-shadow-md">专享高性价比</span><br>
+                                <span class="text-xs text-yellow-400 font-bold mt-1 inline-block bg-yellow-900/40 px-2 py-0.5 rounded border border-yellow-500/30">含独家加赠 14 包</span>
+                            </td>
+                            <td class="py-6 px-4 text-slate-300 text-center">
+                                <span class="text-slate-100 font-medium text-base">需购买多项单品</span>
+                            </td>
+                            <td class="py-6 px-4 text-slate-300 text-center">
+                                <span class="text-slate-100 font-medium text-base">需购买多项单品</span>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <!-- 客观品牌评估说明 -->
+            <div class="mt-8 pt-6 border-t border-slate-700/60 text-sm md:text-base text-slate-300 leading-relaxed font-medium relative z-10">
+                <strong class="text-slate-100 block mb-4 text-base md:text-lg flex items-center gap-2">✨ 关于这份评估的客观事实：</strong>
+                <ul class="space-y-4 mb-6">
+                    <li class="flex items-start gap-3 bg-slate-800/40 p-4 rounded-xl border border-slate-600/30">
+                        <span class="text-gold mt-1 text-lg leading-none">▪</span>
+                        <div><strong class="text-white tracking-wide">日系大厂 三x利：</strong>在“夜间帮助入睡”与“日常基础保养”领域拥有极高的声誉与技术底蕴，特别是其芝麻提取物在舒缓情绪上的口碑极佳，基础肠道保健也相当扎实。若仅针对单一睡眠困扰，是非常值得敬佩的顶级选择。</div>
+                    </li>
+                    <li class="flex items-start gap-3 bg-slate-800/40 p-4 rounded-xl border border-slate-600/30">
+                        <span class="text-gold mt-1 text-lg leading-none">▪</span>
+                        <div><strong class="text-white tracking-wide">韩系专柜 正x庄：</strong>毋庸置疑的“日间高强度滋补”之王。其传统熬煮红参的技术炉火纯青，对于极度疲劳时的元气提振效果极佳。然而，传统高温熬煮的参品较易有“燥热”属性，且品牌较少着墨于夜间舒缓与肠道微生态的建立。</div>
+                    </li>
+                </ul>
+                <div class="bg-gradient-to-r from-slate-800 to-slate-900 p-5 md:p-6 rounded-xl border-l-4 border-gold shadow-lg">
+                    <strong class="text-gold block mb-2 text-base md:text-lg tracking-wide">👑 ESSZENBIO 的系统性优势：</strong>
+                    <p class="text-slate-200">消费者不需要在“日系的好眠”与“韩系的体力”之间做取舍，更不需购买瓶瓶罐罐。我们汲取了两者的优势概念，并立足于“肠道微生态优化”的基石上。透过<strong class="text-white">高阶酶解技术</strong>（将红参转化为温和不燥热的微分子，打破虚不受补的限制），完美实现了一盒搞定“日滋补、夜舒眠、全天候顺畅”的系统性双效保养。</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- 优惠套装 -->
+        <div class="glass-card rounded-3xl p-6 md:p-10 animate-slide-in relative overflow-hidden border border-cyan-500/30 shadow-[0_10px_40px_rgba(34,211,238,0.15)]" style="animation-delay: 0.3s;">
+            <div class="text-center mb-10">
+                <span class="bg-cyan-900/50 text-cyan-300 border border-cyan-500/50 px-4 py-1.5 rounded-full text-xs md:text-sm font-black tracking-widest uppercase mb-4 inline-block shadow-sm">Special Offers</span>
+                <h2 class="text-2xl md:text-4xl font-black text-white drop-shadow-md">日夜协同・专属保养套装</h2>
+                <p class="text-sm md:text-base text-slate-300 mt-3 font-medium">贯彻微生态科学，日夜接力调养，展现最佳健康状态。</p>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-6 relative z-10">
+                
+                <!-- 组合 1 -->
+                <div class="bg-slate-900/80 rounded-2xl p-6 border border-slate-600 flex flex-col justify-between hover:border-slate-400 transition-all hover:scale-[1.02] shadow-lg">
+                    <div>
+                        <div class="flex justify-between items-center mb-4 border-b border-slate-700 pb-4">
+                            <h3 class="text-xl font-black text-white">日夜基础调理</h3>
+                            <span class="bg-slate-700 text-slate-300 text-xs font-bold px-2 py-1 rounded">组合装 1 套</span>
+                        </div>
+                        <p class="text-slate-300 text-sm font-medium mb-6">包含：[晞 AURORA] 日用 1 盒 + [沁 VESPERA] 夜用 1 盒<br>适合初次体验日夜保养系统。</p>
+                        
+                        <div class="bg-rose-900/40 border border-rose-500/30 rounded-xl p-3 mb-6 text-center">
+                            <p class="text-xs text-rose-300 font-bold mb-1">🎁 独家加赠</p>
+                            <p class="text-sm text-white font-black">日夜 7 天份 (共 14 包)</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 组合 2 -->
+                <div class="bg-slate-900/80 rounded-2xl p-6 border border-slate-600 flex flex-col justify-between hover:border-slate-400 transition-all hover:scale-[1.02] shadow-lg">
+                    <div>
+                        <div class="flex justify-between items-center mb-4 border-b border-slate-700 pb-4">
+                            <h3 class="text-xl font-black text-white">进阶周期稳固</h3>
+                            <span class="bg-slate-700 text-slate-300 text-xs font-bold px-2 py-1 rounded">组合装 2 套</span>
+                        </div>
+                        <p class="text-slate-300 text-sm font-medium mb-6">包含：[晞 AURORA] 日用 2 盒 + [沁 VESPERA] 夜用 2 盒<br>建立肠道稳定微生态环境。</p>
+                        
+                        <div class="bg-rose-900/40 border border-rose-500/30 rounded-xl p-3 mb-6 text-center">
+                            <p class="text-xs text-rose-300 font-bold mb-1">🎁 独家加赠</p>
+                            <p class="text-sm text-white font-black">日夜 12 天份 (共 24 包)</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 组合 3 (主推) -->
+                <div class="bg-gradient-to-b from-slate-800 to-slate-900 rounded-2xl p-6 border-2 border-cyan-500/70 flex flex-col justify-between transform md:-translate-y-4 hover:scale-[1.03] transition-all shadow-[0_0_25px_rgba(34,211,238,0.25)] relative overflow-hidden">
+                    <div class="absolute top-0 right-0 bg-gradient-to-l from-cyan-600 to-blue-500 text-white text-[10px] font-black px-8 py-1 transform translate-x-6 translate-y-3 rotate-45 shadow-md">BEST VALUE</div>
+                    
+                    <div>
+                        <div class="flex justify-between items-center mb-4 border-b border-slate-600 pb-4">
+                            <h3 class="text-xl font-black text-cyan-400">深层微生态调养</h3>
+                            <span class="bg-cyan-900/60 text-cyan-200 border border-cyan-500/40 text-xs font-bold px-2 py-1 rounded">组合装 3 套</span>
+                        </div>
+                        <p class="text-slate-300 text-sm font-medium mb-6">包含：[晞 AURORA] 日用 3 盒 + [沁 VESPERA] 夜用 3 盒<br>完成 90 天完整体内环保与体质调整。</p>
+                        
+                        <div class="bg-gradient-to-r from-rose-900/60 to-red-900/60 border border-rose-400/50 rounded-xl p-3 mb-6 text-center shadow-inner">
+                            <p class="text-xs text-rose-300 font-bold mb-1">🎁 顶级尊荣加赠</p>
+                            <p class="text-base text-white font-black">日夜 20 天份 (共 40 包)</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- 页尾信息 -->
+        <div class="mt-16 pt-10 border-t-2 border-slate-700 text-left pb-12">
+            <div class="grid md:grid-cols-2 gap-10">
+                <div class="space-y-3">
+                    <h5 class="font-black text-slate-100 text-lg mb-4 tracking-wider">臻萃研股份有限公司 <br><span class="text-sm text-slate-400 font-bold">EssZen Biotechnics., CO., LTD.</span></h5>
+                    <p class="flex items-start gap-3 text-sm md:text-base"><span class="w-24 shrink-0 text-slate-500 font-bold">统一编号：</span> <span class="text-slate-300 font-medium">60565456</span></p>
+                    <p class="flex items-start gap-3 text-sm md:text-base"><span class="w-24 shrink-0 text-slate-500 font-bold">登录字号：</span> <span class="text-slate-300 font-medium leading-relaxed">食品业者 Q-160565456-00000-1<br>仓储登记 Q-160565456-00001-2</span></p>
+                    <p class="flex items-start gap-3 text-sm md:text-base"><span class="w-24 shrink-0 text-slate-500 font-bold">登记地址：</span> <span class="text-slate-300 font-medium leading-relaxed">台湾嘉义市西区友爱路288号4楼之一</span></p>
+                    <p class="flex items-start gap-3 text-sm md:text-base"><span class="w-24 shrink-0 text-slate-500 font-bold">研发办公室：</span> <span class="text-slate-300 font-medium leading-relaxed">经济部嘉义产业创新研发中心<br>台湾嘉义市西区博爱路二段569号</span></p>
+                    <p class="flex items-start gap-3 text-sm md:text-base"><span class="w-24 shrink-0 text-slate-500 font-bold">联系电话：</span> <span class="text-slate-300 font-medium">+886-5-291-8899 Ext 6807</span></p>
+                    <p class="flex items-start gap-3 text-sm md:text-base"><span class="w-24 shrink-0 text-slate-500 font-bold">免费服务热线：</span> <span class="text-gold font-black text-lg">0800-600-686</span></p>
+                </div>
+                
+                <div class="bg-slate-900/80 p-6 md:p-8 rounded-3xl border border-slate-600 shadow-xl h-fit relative overflow-hidden">
+                    <div class="absolute top-0 right-0 w-32 h-32 bg-cyan-500/10 rounded-full blur-3xl pointer-events-none"></div>
+                    <h5 class="font-black text-slate-100 text-base md:text-lg mb-4 flex items-center gap-3">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-cyan-400 drop-shadow-md" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                        </svg>
+                        食品安全建议与免责声明
+                    </h5>
+                    <p class="text-sm md:text-base leading-relaxed text-slate-300 font-medium mb-3">
+                        本系列产品严选欧洲顶配 6 大益生菌群与高阶低温酶解植萃精华，作为日常膳食营养补充，<strong class="text-gold">不能代替药物，不具备医疗效能</strong>。若您正处于怀孕、哺乳期间，或正接受医师治疗、服用处方药物，请于食用前咨询专业医师或营养师意见。
+                    </p>
+                    <p class="text-sm md:text-base leading-relaxed text-slate-300 font-medium">
+                        对配方中特定成分（如蜂王浆提取物、洋车前子等）过敏者请避免食用。请配合足量水分饮用，以达最佳代谢与顺畅效果。
+                    </p>
+                </div>
+            </div>
+            <div class="mt-12 text-center text-sm text-slate-500 font-bold tracking-wide">
+                &copy; 2026 EssZen Biotechnics., CO., LTD. All Rights Reserved.
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>
+```eof
